@@ -1,9 +1,6 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "api": {
-    "runtime": "@vercel/node@3"
-  },
   "functions": {
     "api/**/*.ts": {
       "runtime": "@vercel/node@3"
